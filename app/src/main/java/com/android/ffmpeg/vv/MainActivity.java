@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
     public native int stream(String inputurl, String outputurl);
 
     static {
-
         System.loadLibrary("avutil-55");
         System.loadLibrary("swresample-2");
         System.loadLibrary("avcodec-57");
@@ -28,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         final TextView infoText = (TextView) findViewById(R.id.label_info);
         infoText.setMovementMethod(ScrollingMovementMethod.getInstance());
         findViewById(R.id.button_avcodec).setOnClickListener(new View.OnClickListener() {
@@ -37,6 +35,5 @@ public class MainActivity extends AppCompatActivity {
                 infoText.setText(avcodecinfo());
             }
         });
-
     }
 }
