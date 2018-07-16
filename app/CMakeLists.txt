@@ -50,8 +50,11 @@ set_target_properties (swscale
                        ${distribution_DIR}/${ANDROID_ABI}/libswscale-4.so)
 
 
+#17以下，编译用
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
+#17NDK编写，编译用
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 include_directories(src/main/cpp/include)
 
