@@ -32,5 +32,6 @@
         android:isScrollContainer="true"
         android:scrollbars="vertical"
         android:text="info" />
+        <!--搞笑来的 -->
 
 </RelativeLayout>
