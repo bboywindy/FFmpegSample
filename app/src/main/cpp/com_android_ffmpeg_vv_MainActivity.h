@@ -16,7 +16,7 @@ JNIEXPORT jstring JNICALL Java_com_android_ffmpeg_vv_MainActivity_avcodecinfo
   (JNIEnv *, jobject);
 
 /*
- * Class:     com_android_ffmpeg_vv_MainActivity 这是流处理方式。
+ * Class:     com_android_ffmpeg_vv_MainActivity
  * Method:    stream
  * Signature: (Ljava/lang/String;Ljava/lang/String;)I
  */
