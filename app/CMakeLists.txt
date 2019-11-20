@@ -5,6 +5,7 @@ find_library( log-lib
 
 set(distribution_DIR ../../../../libs)
 
+#测试，用于记录git 的 操作。
 add_library(  avcodec
               SHARED
               IMPORTED)
