@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     public native String avcodecinfo();
 
+    // 读取流。
     public native int stream(String inputurl, String outputurl);
 
     static {
