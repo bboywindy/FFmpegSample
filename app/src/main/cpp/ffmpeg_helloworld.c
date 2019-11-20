@@ -8,7 +8,7 @@
 
 #include "com_android_ffmpeg_vv_MainActivity.h"
 
-
+// 搞笑来的。
 #define LOG "NDK_LOG"
 #define LOGI(FORMAT, ...) __android_log_print(ANDROID_LOG_INFO, LOG, FORMAT, ##__VA_ARGS__)
 #define LOGE(FORMAT, ...) __android_log_print(ANDROID_LOG_ERROR, LOG, FORMAT, ##__VA_ARGS__)
