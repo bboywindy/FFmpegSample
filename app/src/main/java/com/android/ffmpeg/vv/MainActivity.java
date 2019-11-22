@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     public native int stream(String inputurl, String outputurl);
 
-    // 静态引入so库。
+    // 静态引入so库。    
     static {
         System.loadLibrary("avutil-55");
         System.loadLibrary("swresample-2");
