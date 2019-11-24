@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     public native int stream(String inputurl, String outputurl);
 
+    // 静态引入so库。    
     static {
         System.loadLibrary("avutil-55");
         System.loadLibrary("swresample-2");
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("swscale-4");
         System.loadLibrary("avfilter-6");
         System.loadLibrary("ffmpegvice");
+        // master 修改，加入另一条记录。
     }
 
     @Override

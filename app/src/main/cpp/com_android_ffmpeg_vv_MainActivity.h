@@ -23,6 +23,9 @@ JNIEXPORT jstring JNICALL Java_com_android_ffmpeg_vv_MainActivity_avcodecinfo
 JNIEXPORT jint JNICALL Java_com_android_ffmpeg_vv_MainActivity_stream
   (JNIEnv *, jobject, jstring, jstring);
 
+
+// 修改头文件。
+
 #ifdef __cplusplus
 }
 #endif

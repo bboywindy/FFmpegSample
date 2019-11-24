@@ -12,6 +12,10 @@
 #define LOGI(FORMAT, ...) __android_log_print(ANDROID_LOG_INFO, LOG, FORMAT, ##__VA_ARGS__)
 #define LOGE(FORMAT, ...) __android_log_print(ANDROID_LOG_ERROR, LOG, FORMAT, ##__VA_ARGS__)
 
+/**
+ * 注意事项  
+ *
+**/
 JNIEXPORT jstring JNICALL Java_com_android_ffmpeg_vv_MainActivity_avcodecinfo
         (JNIEnv *env, jobject obj) {
 
